@@ -14,7 +14,7 @@ export function Header() {
                     <div className='flex mt-4'>
                         <a className='flex gap-1 items-center mr-4 hover:scale-110 duration-500' href="mailto:97jsantos@gmail.com"><IoMdMail style={{fontSize:'20px'}}/>97jsantos@gmail.com</a>
                         <a className='flex gap-1 items-center mx-2 hover:scale-110 duration-500' href="https://github.com/97jsantos" target="_blank" rel="noreferrer"><FaGithub style={{fontSize:'20px'}}/>97jsantos</a>
-                        <a className='flex gap-1 items-center ml-4 hover:scale-110 duration-500' href="https://www.linkedin.com/in/jo%C3%A9lisson-santos-387204232/" target="_blank" rel="noreferrer"><FaLinkedin style={{fontSize:'20px'}}/>Joélisson Santos</a>
+                        <a className='flex gap-1 items-center ml-4 hover:scale-110 duration-500' href="https://www.linkedin.com/in/joelisson-santos-387204232/" target="_blank" rel="noreferrer"><FaLinkedin style={{fontSize:'20px'}}/>Joélisson Santos</a>
                     </div>
                 </div>
             </div>
