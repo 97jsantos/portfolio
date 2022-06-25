@@ -28,7 +28,7 @@ export function GoToProjects() {
 
 export function GoToSkills() {
   window.scrollTo({
-    top:3200,
+    top:3100,
     behavior: "smooth"
   })
 }

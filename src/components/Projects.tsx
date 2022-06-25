@@ -4,8 +4,8 @@ import website from "../img/projeto-website.png"
 
 export function Projects() {
     return (
-        <div className="max-w-7xl mx-auto">
-            <p className="text-center text-5xl mb-20 block">Projetos</p>
+        <div id="projects" className="max-w-7xl mx-auto">
+            <p className="text-center text-5xl pt-24 mb-20 block">Projetos</p>
             <div className="flex items-center flex-wrap sm:justify-between justify-center">
                 <ProjectsCard
                 href="https://jsantos97-website.herokuapp.com/"

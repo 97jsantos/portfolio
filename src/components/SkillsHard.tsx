@@ -5,8 +5,8 @@ export function SkillsHard() {
     return (
         <div className="flex flex-col items-center justify-center">
             <div className="mb-16 py-12 border-2 border-white p-2 relative">
-                <GiGears className='text-7xl border-2 border-white rounded-full p-2 absolute -left-8 -top-8 bg-gray-900 hover:animate-ping'/>
-                <p className="text-2xl absolute -top-5 left-20 bg-gray-900 px-3">Habilidades Técnicas</p>
+                <GiGears className='sm:text-7xl text-5xl border-2 border-white rounded-full p-2 absolute sm:-left-8 sm:-top-8 -left-5 -top-5 bg-gray-900 hover:animate-ping'/>
+                <p className="sm:text-2xl text-base absolute sm:-top-5 sm:left-20 -top-3.5 left-10 bg-gray-900 sm:px-3 px-2">Habilidades Técnicas</p>
                 <div className="flex flex-wrap items-center justify-center">
                     <SkillsCard
                     title="HTML5, CSS3 e JavaScript"
