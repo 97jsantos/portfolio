@@ -1,6 +1,6 @@
 export function AbouteMe() {
     return (
-        <div className="text-center flex flex-col items-center justify-center">
+        <div className="text-center flex flex-col items-center justify-center mx-5">
             <p className="text-5xl max-w-sm my-20">Sobre mim</p>
             <div className="max-w-2xl">
                 <p className="mb-2">Há tempos sou fascinado em aprender como a tecnologia funciona e desde que conheci o Desenvolvimento Front End, a programação se tornou mais do que uma rotina diária: se tornou meu estilo de vida!</p>

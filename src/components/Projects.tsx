@@ -4,25 +4,25 @@ import website from "../img/projeto-website.png"
 
 export function Projects() {
     return (
-        <>
+        <div className="max-w-7xl mx-auto">
             <p className="text-center text-5xl mb-20 block">Projetos</p>
-            <div className="flex items-center flex-wrap justify-center">
+            <div className="flex items-center flex-wrap sm:justify-between justify-center">
                 <ProjectsCard
                 href="https://jsantos97-website.herokuapp.com/"
                 bg={website}
                 title='Projeto Website'
-                text="sdfwqesd wqe fwf qwef f qwerf wqe fwf weq f weqf we f stg  rwef sda gsf g re gaw f asdg afd gg adg asdfg afdg sefd gare g asg a" />
+                text="O SaleStore é um site de e-commerce produzido em React TypeScript com uma Fake API em JSON, 100% autoral." />
                 <ProjectsCard
                 href="https://jsantos97-website.herokuapp.com/"
                 bg={website}
                 title='Projeto Website'
-                text="sdfwqesd wqe fwf qwef f qwerf wqe fwf weq f weqf we f stg  rwef sda gsf g re gaw f asdg afd gg adg asdfg afdg sefd gare g asg a asd asd sdaf sda fasd f qwef sd f wqe fsd f wqef ds fwqe" />
+                text="O SaleStore é um site de e-commerce produzido em React TypeScript com uma Fake API em JSON, 100% autoral." />
                 <ProjectsCard
                 href="https://jsantos97-website.herokuapp.com/"
                 bg={website}
                 title='Projeto Website'
-                text="sdfwqesd wqe fwf qwef f qwerf wqe fwf weq f weqf we f stg  rwef sda gsf g re gaw f asdg afd gg adg asdfg afdg sefd gare g asg a" />
+                text="O SaleStore é um site de e-commerce produzido em React TypeScript com uma Fake API em JSON, 100% autoral." />
             </div>
-        </>
+        </div>
     )
 }

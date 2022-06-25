@@ -7,11 +7,11 @@ interface ProjectsCardProps {
 
 export function ProjectsCard({ href, bg, title, text }: ProjectsCardProps) {
     return (
-        <div className="p-4 my-4 mx-8 shadow-xl shadow-black w-2/5 hover:scale-110 duration-1500 rounded-md">
-            <a href={href} target='_blank'><div style={{backgroundImage: `url(${bg})` }} className='h-44 bg-cover bg-no-repeat hover:bg-bottom hover:duration-1500 duration-1500 rounded-t-lg'></div></a>
-            <div className="text-center h-40">
-                <p className="pt-6 text-2xl">{title}</p>
-                <p className="pt-4 pb-6 px-4">{text}</p>
+        <div className="p-4 my-4 sm:mx-auto mx-7 shadow-xl shadow-black lg:w-5/12 max-w-xl hover:scale-110 duration-1500 rounded-md">
+            <a href={href} target='_blank'><div style={{backgroundImage: `url(${bg})` }} className='sm:h-36 h-28 bg-cover bg-no-repeat hover:bg-bottom hover:duration-1500 duration-1500 rounded-t-lg'></div></a>
+            <div className="text-center sm:h-32 h-24">
+                <p className="sm:mt-6 sm:text-2xl mt-3 text-xl">{title}</p>
+                <p className="sm:mt-4 sm:mb-6 sm:px-4 sm:text-base my-2 px-3 text-sm">{text}</p>
             </div>
         </div>
     )

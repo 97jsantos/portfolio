@@ -4,7 +4,7 @@ import { GiGears } from "react-icons/gi"
 export function SkillsHard() {
     return (
         <div className="flex flex-col items-center justify-center">
-            <div className="mb-16 py-12 border-2 border-white p-2 max-w-7xl relative">
+            <div className="mb-16 py-12 border-2 border-white p-2 relative">
                 <GiGears className='text-7xl border-2 border-white rounded-full p-2 absolute -left-8 -top-8 bg-gray-900 hover:animate-ping'/>
                 <p className="text-2xl absolute -top-5 left-20 bg-gray-900 px-3">Habilidades Técnicas</p>
                 <div className="flex flex-wrap items-center justify-center">
