@@ -12,9 +12,9 @@ export function Header() {
                     <p className='w-full lg:text-3xl text-xl'>Me chamo Joélisson Santos,</p>
                     <p className='w-full lg:text-right text-center lg:text-lg text-xs'>Seja bem-vindo ao meu portfólio!</p>
                     <div className='w-full flex lg:flex-row flex-col justify-around sm:mt-4 mt-10'>
-                        <a className='flex gap-1 items-center text-xs mb-2 hover:scale-110 duration-500' href="mailto:97jsantos@gmail.com"><IoMdMail style={{fontSize:'20px'}}/>97jsantos@gmail.com</a>
-                        <a className='flex gap-1 items-center text-xs mb-2 hover:scale-110 duration-500' href="https://github.com/97jsantos" target="_blank" rel="noreferrer"><FaGithub style={{fontSize:'20px'}}/>97jsantos</a>
-                        <a className='flex gap-1 items-center text-xs mb-2 hover:scale-110 duration-500' href="https://www.linkedin.com/in/joelisson-santos/" target="_blank" rel="noreferrer"><FaLinkedin style={{fontSize:'20px'}}/>Joélisson Santos</a>
+                        <a className='flex w-fit gap-1 items-center text-xs mb-2 hover:scale-110 duration-500' href="mailto:97jsantos@gmail.com"><IoMdMail style={{fontSize:'20px'}}/>97jsantos@gmail.com</a>
+                        <a className='flex w-fit gap-1 items-center text-xs mb-2 hover:scale-110 duration-500' href="https://github.com/97jsantos" target="_blank" rel="noreferrer"><FaGithub style={{fontSize:'20px'}}/>97jsantos</a>
+                        <a className='flex w-fit gap-1 items-center text-xs mb-2 hover:scale-110 duration-500' href="https://www.linkedin.com/in/joelisson-santos/" target="_blank" rel="noreferrer"><FaLinkedin style={{fontSize:'20px'}}/>Joélisson Santos</a>
                     </div>
                 </div>
             </div>
