@@ -1,7 +1,7 @@
 export function AbouteMe() {
     return (
         <div id="aboutMe" className="text-center flex flex-col items-center justify-center mx-10">
-            <p className="text-5xl max-w-sm my-20">Sobre mim</p>
+            <p className="text-5xl max-w-sm sm:my-24 my-14">Sobre mim</p>
             <div className="max-w-2xl">
                 <p className="mb-2">Há tempos sou fascinado em aprender como a tecnologia funciona e desde que conheci o Desenvolvimento Front End, a programação se tornou mais do que uma rotina diária: se tornou meu estilo de vida!</p>
                 <p className="mb-2">Nós seres humanos buscamos e necessitamos evoluir. Tudo muda, tudo evolui e qualquer área de nossa vida precisa de aprimoramento. O mundo da tecnologia se altera numa velocidade enorme, está em constante evolução e o aprendizado é contínuo, e foi esse mundo que me conquistou.</p>

@@ -4,7 +4,7 @@ export function Formations() {
     return (
         <div id="formations" className="flex justify-center">
             <div className="max-w-7xl flex flex-col items-center sm:mx-10 mx-7">
-                <p className="text-5xl mt-24">Formações</p>
+                <p className="text-5xl sm:mt-24 mt-14">Formações</p>
                 <FormationsCard
                 titulo="Análise e Desenvolvimento de Sistemas"
                 tipo="Tecnólogo"

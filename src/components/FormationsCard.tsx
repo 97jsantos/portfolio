@@ -12,7 +12,7 @@ interface FormationsCardProps {
 
 export function FormationsCard({ titulo, tipo, instituicao, situacao, datainicio, dataconclusao, duracao }: FormationsCardProps) {
     return (
-        <div className='relative w-full mt-24 mx-auto'>
+        <div className='relative w-full sm:mt-24 mt-14 mx-auto'>
             <FaGraduationCap className='sm:text-7xl text-5xl border-2 border-white rounded-full p-2 absolute sm:-left-8 sm:-top-8 -left-5 -top-5 bg-gray-900 hover:animate-spin'/>
             <div className='border-2 border-white'>
                 <p className='sm:text-2xl text-base absolute sm:-top-5 sm:left-20 -top-3 left-10 bg-gray-900 sm:px-3 px-2'>{titulo}</p>
