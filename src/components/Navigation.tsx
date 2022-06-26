@@ -16,7 +16,7 @@ export function Navigation() {
                   setIsNavExpanded(!isNavExpanded);
                 }}><MdMenu className='text-3xl text-white'/></button>
       <div className="max-w-7xl w-full relative mx-auto flex items-center justify-around">
-        <ul className={`flex flex-col absolute bg-gray-900 z-10 w-full top-7 sm:left-auto sm:flex-row justify-center sm:justify-around sm:top-auto duration-500 sm:duration-0 ${isNavExpanded ? "left-0" : "-left-full"}
+        <ul className={`flex flex-col absolute bg-gray-900 z-10 w-full top-8 sm:left-auto sm:flex-row justify-center sm:justify-around sm:top-auto duration-500 sm:duration-0 ${isNavExpanded ? "left-0" : "-left-full"}
                     `}>
           <Link to="header" spy={true} smooth={true} offset={-56} duration={500} className="opacity-60 hover:opacity-100 font-medium flex justify-center mb-3 mt-6 sm:my-0 cursor-pointer"><GoHome style={{fontSize:'30px'}} /></Link>
           <div className="flex flex-col sm:flex-row">
