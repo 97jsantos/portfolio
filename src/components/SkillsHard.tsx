@@ -15,17 +15,20 @@ export function SkillsHard() {
                     title="React e Typescript"
                     text="Em 2022 iniciei meus estudos em React e conhecer o React foi e continua sendo uma experiência incrível, e sabendo o quão requisitado é o Typescript, incluí nos meus estudos e hoje desenvolvo em React.ts." />
                     <SkillsCard
-                    title="Bootstrap"
-                    text="Conheci o Boostrap em 2022, foi meu primeiro contato com um framework que permite aplicar estilos a partir de classes pré-construídas, o que além da praticidade que oferece, também auxilia bastante na aplicação de conteúdos responsivos." />
-                    <SkillsCard
                     title="Tailwind CSS"
                     text="Conheci o Tailwind CSS em 2022 durante um evento de programação da Rocketseat, e apesar de ter a mesma funcionalidade do Bootstrap, estou optando por utilizar o Tailwind por possuir uma variedade maior de estilos em algumas classes." />
+                    <SkillsCard
+                    title="Bootstrap"
+                    text="Conheci o Boostrap em 2022, foi meu primeiro contato com um framework que permite aplicar estilos a partir de classes pré-construídas, o que além da praticidade que oferece, também auxilia bastante na aplicação de conteúdos responsivos." />
                     <SkillsCard
                     title="Vite"
                     text="Conheci o Vite em 2022 durante um evento de programação da Rocketseat por indicação do Professor Diego Fernandes, e desde então venho iniciando meus projetos em React.ts utilizando essa ferramenta de construção para front-end." />
                     <SkillsCard
                     title="Git e GitHub"
                     text="Em 2022 conheci a importância dessas ferramentas e desde então venho utilizando, se tornando indispensável para o versionamento e hospedagem dos meus projetos. " />
+                    <SkillsCard
+                    title="Inglês intermediário"
+                    text="Classifico minha leitura como avançada, sendo o suficiente para leitura de textos e documentos; a minha escrita e a escuta como intermediária e a minha conversação baixa." />
                 </div>
             </div>
         </div>
