@@ -28,7 +28,7 @@ export function SkillsHard() {
                     text="Em 2022 conheci a importância dessas ferramentas e desde então venho utilizando, se tornando indispensável para o versionamento e hospedagem dos meus projetos. " />
                     <SkillsCard
                     title="Inglês intermediário"
-                    text="Classifico minha leitura como avançada, sendo o suficiente para leitura de textos e documentos; a minha escrita e a escuta como intermediária e a minha conversação baixa." />
+                    text="Classifico minha leitura como avançada, sendo o suficiente para leitura de textos e documentos; a minha escrita e a escuta como intermediária e a minha conversação básica." />
                 </div>
             </div>
         </div>

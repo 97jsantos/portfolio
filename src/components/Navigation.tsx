@@ -1,4 +1,3 @@
-import { GoToAbout, GoToFormations, GoToHeader, GoToProjects, GoToSkills } from "./GoTo";
 import { MdMenu } from 'react-icons/md'
 import { Link } from "react-scroll";
 import { GoHome } from 'react-icons/go'
